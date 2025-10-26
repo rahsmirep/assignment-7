@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personality Quiz</title>
+  <!-- Bootstrap CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">What Type of Legacy Builder Are You?</h1>
+
+    <!-- Start quiz element -->
+    <div class="question-block mb-4">
+      <h4>What's your ideal weekend activity?</h4>
+      <button class="btn btn-outline-primary answer-btn me-2 mt-2" data-answer="A">Exploring a new city</button>
+      <button class="btn btn-outline-primary answer-btn me-2 mt-2" data-answer="B">Reading and relaxing at home</button>
+    </div>
+    <!-- End quiz element -->
+
+    <!-- Duplicate the above block 2–4 more times with new questions -->
+
+    <!-- Results Button -->
+    <div class="text-center mt-4">
+      <button id="result-btn" class="btn btn-success">Give Me the Results</button>
+    </div>
+
+    <!-- Result Display -->
+    <div id="result-container" class="mt-4 text-center fs-4 fw-bold"></div>
+  </div>
+
+  <!-- Script Connection -->
+  <script src="script.js"></script>
+</body>
+</html>

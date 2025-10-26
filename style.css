@@ -1,0 +1,18 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Selected answer button styling */
+.selected {
+  background-color: limegreen;
+  color: black;
+  border-color: limegreen;
+}
+
+/* Optional: spacing between buttons */
+.answer-btn {
+  margin-right: 10px;
+  margin-top: 5px;
+}
